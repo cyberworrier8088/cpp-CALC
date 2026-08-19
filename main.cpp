@@ -1,8 +1,24 @@
 #include <iostream>
 
+double plus(double a, double b) {
+    return a + b;
+}
+
+double minus(double a, double b) {
+    return a - b;
+}
+
+double multiplication(double a, double b) {
+    return a * b;
+}
+
+double divide(double a, double b) {
+    return a / b;
+}
+
 int main() {
 
-    int first_Number, last_Number;
+    double first_Number, last_Number;
     char opration;
     
     std::cout << "Enter Your First Number: ";
@@ -17,16 +33,16 @@ int main() {
 
     switch (opration) {
         case '+':
-        plus(first_Number, last_Number);
+        std::cout << "Result: " << plus(first_Number, last_Number);
         break;
         case '-':
-        minus(first_Number, last_Number);
+        std::cout << "Result: " << minus(first_Number, last_Number);
         break;
         case '×':
-        multiplication (first_Number, last_Number);
+        std::cout << "Result: " << multiplication (first_Number, last_Number);
         break;
         case '÷':
-        divide(first_Number, last_Number);
+        std::cout << "Result: " << divide(first_Number, last_Number);
         break;
     }
 
