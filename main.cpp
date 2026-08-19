@@ -34,15 +34,19 @@ int main() {
     switch (opration) {
         case '+':
         std::cout << "Result: " << plus(first_Number, last_Number);
+        std::cout << "\n";
         break;
         case '-':
         std::cout << "Result: " << minus(first_Number, last_Number);
+        std::cout << "\n";
         break;
         case '×':
         std::cout << "Result: " << multiplication (first_Number, last_Number);
+        std::cout << "\n";
         break;
         case '÷':
         std::cout << "Result: " << divide(first_Number, last_Number);
+        std::cout << "\n";
         break;
     }
 
