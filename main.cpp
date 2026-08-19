@@ -1,6 +1,10 @@
 #include <iostream>
 
 int main() {
+
+    int first_Number, last_Number;
+    char opration;
     
-    std::cout << "init. workkng9272";
+    std::cout << "Enter Your First Number: ";
+
 }
