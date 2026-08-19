@@ -10,6 +10,9 @@ Features:
 two why to run:
 
 ### Method 1
+
+linux:
+
 ```bash
 
 git clone https://github.com/cyberworrier8088/cpp-CALC.git
@@ -19,7 +22,19 @@ chmod +x main
 
 ```
 
-### Method 2
+windows:
+
+```bash
+
+git clone https://github.com/cyberworrier8088/cpp-CALC.git
+cd cpp-CALC
+
+g++ main.cpp -o main.exe
+
+```
+click and run
+
+### Method 2 (linux only)
 
 Use the build releases
 
